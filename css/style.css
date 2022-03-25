@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Lato';
+  src: url(./Lato-Light.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', 'Trebuchet MS', sans-serif;
+  color: #ddd;
+}
+
+body {
+  background-color: #222;
+}
+
+#adminLink {
+  text-align: right;
+  padding-right: 0.3rem;
+}
+
+#adminLink > a,
+#adminLink > a:visited {
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+#adminLink > a:hover,
+#adminLink > a:active {
+  text-decoration: none;
+}
+
+h1 {
+  padding: 1.5rem 15% 3rem 15%;
+  text-align: center;
+}
+
+.date {
+  text-align: right;
+}
+
+h2,
+p {
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.entry {
+  text-align: center;
+  padding: 1rem;
+  margin: 0 15% 3rem 15%;
+  border: 2px solid #444;
+  border-radius: 5px;
+}
+
+#line {
+  margin: 1rem 0 2rem 0;
+  width: 100%;
+  border-top: 2px solid #444;
+}
+
+img {
+  text-align: center;
+  margin: 1rem;
+  max-height: 90vh;
+  max-width: calc(100% - 2rem);
+  cursor: zoom-in;
+  border-radius: 2.5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .entry {
+    margin: 0 2% 3rem 2%;
+  }
+}

@@ -1,0 +1,3 @@
+<?php
+    $blogTitle = 'Blog Title';
+?>
